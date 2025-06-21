@@ -1,0 +1,86 @@
+export const historyData = [
+    {
+      id: 1,
+      date: "2024-01-15",
+      categoryId: "fitness",
+      data: {
+        runningPace: "4:58 /km",
+        weight: "75.8 kg",
+        bodyFat: "19.2%",
+        distance: "10.5 km",
+      },
+      note: "Personal best run!",
+    },
+    {
+      id: 2,
+      date: "2024-01-10",
+      categoryId: "fitness",
+      data: {
+        runningPace: "5:15 /km",
+        weight: "76.1 kg",
+        bodyFat: "19.5%",
+        distance: "8.2 km",
+      },
+      note: "Good steady run",
+    },
+    {
+      id: 3,
+      date: "2024-01-05",
+      categoryId: "fitness",
+      data: {
+        runningPace: "5:45 /km",
+        weight: "76.8 kg",
+        bodyFat: "20.1%",
+        distance: "5.0 km",
+      },
+      note: "Getting back into routine",
+    },
+    {
+      id: 4,
+      date: "2024-01-12",
+      categoryId: "finances",
+      data: {
+        netWorth: "$45,250",
+        monthlyIncome: "$5,200",
+        savingsRate: "28%",
+        investmentValue: "$28,500",
+      },
+      note: "Emergency fund completed",
+    },
+    {
+      id: 5,
+      date: "2024-01-01",
+      categoryId: "finances",
+      data: {
+        netWorth: "$42,100",
+        monthlyIncome: "$5,000",
+        savingsRate: "25%",
+        investmentValue: "$26,800",
+      },
+      note: "New year baseline",
+    },
+    {
+      id: 6,
+      date: "2024-01-10",
+      categoryId: "learning",
+      data: {
+        coursesCompleted: "12",
+        currentGPA: "3.7",
+        skillsLearned: "8",
+        creditsCompleted: "90",
+      },
+      note: "AWS certification earned",
+    },
+    {
+      id: 7,
+      date: "2024-01-08",
+      categoryId: "career",
+      data: {
+        currentSalary: "$85,000",
+        yearsExperience: "3.2 years",
+        projectsCompleted: "23",
+        teamSize: "5 people",
+      },
+      note: "Salary increase negotiated",
+    },
+  ]
